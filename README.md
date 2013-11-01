@@ -1,4 +1,4 @@
 muffin
 ======
 
-Muffin for Sagarmatha
+Muffin, The Windows Manager for Sagarmatha 1.0
