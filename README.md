@@ -1,4 +1,4 @@
 muffin
 ======
 
-Muffin is a windows manager ...
+Muffin is a windows manager .
