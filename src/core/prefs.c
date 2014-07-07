@@ -62,7 +62,7 @@
 /* These are the different schemas we are keeping
  * a GSettings instance for */
 #define SCHEMA_GENERAL         "org.sagarmatha.desktop.wm.preferences"
-#define SCHEMA_CINNAMON          "org.sagarmatha"
+#define SCHEMA_SAGARMATHA          "org.sagarmatha"
 #define SCHEMA_MUFFIN          "org.sagarmatha.muffin"
 #define SCHEMA_INTERFACE       "org.sagarmatha.desktop.interface"
 
@@ -895,9 +895,9 @@ meta_prefs_init (void)
   g_signal_connect (settings, "changed", G_CALLBACK (settings_changed), NULL);
   g_hash_table_insert (settings_schemas, g_strdup (SCHEMA_MUFFIN), settings);
 
-  settings = g_settings_new (SCHEMA_CINNAMON);
+  settings = g_settings_new (SCHEMA_SAGARMATHA);
   g_signal_connect (settings, "changed", G_CALLBACK (settings_changed), NULL);
-  g_hash_table_insert (settings_schemas, g_strdup (SCHEMA_CINNAMON), settings);
+  g_hash_table_insert (settings_schemas, g_strdup (SCHEMA_SAGARMATHA), settings);
 
   /* Individual keys we watch outside of our schemas */
   settings = g_settings_new (SCHEMA_INTERFACE);
@@ -1085,7 +1085,7 @@ settings_changed (GSettings *settings,
       return;
     }
   
-  if (strcmp(schema, SCHEMA_CINNAMON) == 0)
+  if (strcmp(schema, SCHEMA_SAGARMATHA) == 0)
     return;
 
   value = g_settings_get_value (settings, key);
@@ -1948,7 +1948,7 @@ update_workspace_names (void)
   int n_workspace_names, n_names;
   gboolean changed = FALSE;
 
-  names = g_settings_get_strv (SETTINGS (SCHEMA_CINNAMON), KEY_WORKSPACE_NAMES);
+  names = g_settings_get_strv (SETTINGS (SCHEMA_SAGARMATHA), KEY_WORKSPACE_NAMES);
   n_names = g_strv_length (names);
   n_workspace_names = workspace_names ? g_strv_length (workspace_names) : 0;
 
@@ -2041,7 +2041,7 @@ meta_prefs_change_workspace_name (int         num,
       g_variant_builder_add (&builder, "s", value);
     }
 
-  g_settings_set_value (SETTINGS (SCHEMA_CINNAMON), KEY_WORKSPACE_NAMES,
+  g_settings_set_value (SETTINGS (SCHEMA_SAGARMATHA), KEY_WORKSPACE_NAMES,
                         g_variant_builder_end (&builder));
 }
 

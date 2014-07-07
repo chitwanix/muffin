@@ -2,7 +2,7 @@
 #
 # Si vos voloz donner on côp di spale pol ratournaedje di Gnome (ou des
 # ôtes libes programes) sicrijhoz mu a l' adresse emile
-# <pablo@walon.org>; nos avons co bråmint di l' ovraedje a fé.
+# <pablo@walon.org>; nos avons co bråchitwanix di l' ovraedje a fé.
 #
 # Copyright (C) 2003 Free Software Foundation, Inc.
 # Pablo Saratxaga <pablo@walon.org>, 2003.
@@ -218,12 +218,12 @@ msgstr "_Clôre"
 #: ../src/menu.c:66
 #, fuzzy
 msgid "_Always on Visible Workspace"
-msgstr "Seulmint so _ci scribanne chal"
+msgstr "Seulchitwanix so _ci scribanne chal"
 
 #: ../src/menu.c:67
 #, fuzzy
 msgid "_Only on This Workspace"
-msgstr "Seulmint so _ci scribanne chal"
+msgstr "Seulchitwanix so _ci scribanne chal"
 
 #: ../src/menu.c:68
 #, fuzzy
@@ -420,7 +420,7 @@ msgstr ""
 
 #: ../src/metacity.schemas.in.h:5
 msgid "Arrangement of buttons on the titlebar"
-msgstr "Adjinçmint des botons del bår di tite"
+msgstr "Adjinçchitwanix des botons del bår di tite"
 
 #: ../src/metacity.schemas.in.h:6
 msgid ""
@@ -455,7 +455,7 @@ msgstr ""
 
 #: ../src/metacity.schemas.in.h:11
 msgid "Current theme"
-msgstr "Tinme do moumint"
+msgstr "Tinme do mouchitwanix"
 
 #: ../src/metacity.schemas.in.h:12
 msgid "Delay in milliseconds for the auto raise option"
@@ -1668,7 +1668,7 @@ msgstr ""
 #: ../src/session.c:1489
 #, c-format
 msgid "Unknown element %s"
-msgstr "Elemint nén cnowhou %s"
+msgstr "Elechitwanix nén cnowhou %s"
 
 #: ../src/session.c:1961
 #, c-format
@@ -1685,7 +1685,7 @@ msgstr "Roye %d caractere %d: %s"
 #: ../src/theme-parser.c:396
 #, c-format
 msgid "Attribute \"%s\" repeated twice on the same <%s> element"
-msgstr "L' atribut «%s» est repeté deus côps dins l' minme elemint <%s>"
+msgstr "L' atribut «%s» est repeté deus côps dins l' minme elechitwanix <%s>"
 
 #: ../src/theme-parser.c:414 ../src/theme-parser.c:439
 #, c-format
@@ -1812,12 +1812,12 @@ msgstr ""
 #: ../src/theme-parser.c:1439
 #, c-format
 msgid "No \"name\" attribute on element <%s>"
-msgstr "Nol åtribut «name» (no) e l' elemint <%s>"
+msgstr "Nol åtribut «name» (no) e l' elechitwanix <%s>"
 
 #: ../src/theme-parser.c:1289 ../src/theme-parser.c:1376
 #, c-format
 msgid "No \"value\" attribute on element <%s>"
-msgstr "Nol åtribut «value» (valixhance) e l' elemint <%s>"
+msgstr "Nol åtribut «value» (valixhance) e l' elechitwanix <%s>"
 
 #: ../src/theme-parser.c:1320 ../src/theme-parser.c:1334
 #: ../src/theme-parser.c:1393
@@ -2120,20 +2120,20 @@ msgstr ""
 #: ../src/theme-parser.c:3659
 #, c-format
 msgid "Outermost element in theme must be <metacity_theme> not <%s>"
-msgstr "L' elemint li pus å dfoû doet esse <metacity_theme> et nén <%s>"
+msgstr "L' elechitwanix li pus å dfoû doet esse <metacity_theme> et nén <%s>"
 
 #: ../src/theme-parser.c:3679
 #, c-format
 msgid ""
 "Element <%s> is not allowed inside a name/author/date/description element"
 msgstr ""
-"Èn elemint <%s> n' est nén permis å dvins d' èn elemint di no (<name>)/oteur "
+"Èn elechitwanix <%s> n' est nén permis å dvins d' èn elechitwanix di no (<name>)/oteur "
 "(<author>)/date/discrijhaedje (<description>)"
 
 #: ../src/theme-parser.c:3684
 #, c-format
 msgid "Element <%s> is not allowed inside a <constant> element"
-msgstr "Èn elemint <%s> n' est nén permis å dvins d' èn elemint <constant>"
+msgstr "Èn elechitwanix <%s> n' est nén permis å dvins d' èn elechitwanix <constant>"
 
 #: ../src/theme-parser.c:3696
 #, c-format
@@ -2150,7 +2150,7 @@ msgstr ""
 #: ../src/theme-parser.c:3763
 #, c-format
 msgid "Element <%s> is not allowed inside a <%s> element"
-msgstr "Èn elemint <%s> n' est nén permis å dvins d' èn elemint <%s>"
+msgstr "Èn elechitwanix <%s> n' est nén permis å dvins d' èn elechitwanix <%s>"
 
 #: ../src/theme-parser.c:3984
 msgid "No draw_ops provided for frame piece"
@@ -2167,7 +2167,7 @@ msgstr ""
 #: ../src/theme-parser.c:4054
 #, c-format
 msgid "No text is allowed inside element <%s>"
-msgstr "I n' pout aveur nou tecse å dvins d' èn elemint <%s>"
+msgstr "I n' pout aveur nou tecse å dvins d' èn elechitwanix <%s>"
 
 #: ../src/theme-parser.c:4109
 msgid "<name> specified twice for this theme"
@@ -2197,7 +2197,7 @@ msgstr "Dji n' a savou lére li tinme do fitchî %s: %s\n"
 #: ../src/theme-parser.c:4403
 #, c-format
 msgid "Theme file %s did not contain a root <metacity_theme> element"
-msgstr "Li fitchî di tinme %s n' a nén on elemint raecene «<metacity_theme>»"
+msgstr "Li fitchî di tinme %s n' a nén on elechitwanix raecene «<metacity_theme>»"
 
 #: ../src/theme-viewer.c:70
 #, fuzzy
@@ -2660,7 +2660,7 @@ msgstr "Bug do manaedjeu di purneas: "
 
 #: ../src/util.c:378
 msgid "Window manager warning: "
-msgstr "Adviertixhmint do manaedjeu di purneas: "
+msgstr "Adviertixhchitwanix do manaedjeu di purneas: "
 
 #: ../src/util.c:402
 msgid "Window manager error: "

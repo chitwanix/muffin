@@ -1424,15 +1424,15 @@ msgstr "Egy újabb példány megnyitása ezekből az ablakokból"
 
 #: ../src/ui/theme-viewer.c:117
 msgid "This is a demo button with an 'open' icon"
-msgstr "Ez egy mintagomb a „Megnyitás” ikonnal"
+msgstr "Ez egy chitwanixagomb a „Megnyitás” ikonnal"
 
 #: ../src/ui/theme-viewer.c:119
 msgid "This is a demo button with a 'quit' icon"
-msgstr "Ez egy mintagomb a „Kilépés” ikonnal"
+msgstr "Ez egy chitwanixagomb a „Kilépés” ikonnal"
 
 #: ../src/ui/theme-viewer.c:248
 msgid "This is a sample message in a sample dialog"
-msgstr "Ez egy mintaüzenet egy minta párbeszédben"
+msgstr "Ez egy chitwanixaüzenet egy chitwanixa párbeszédben"
 
 #: ../src/ui/theme-viewer.c:328
 #, c-format

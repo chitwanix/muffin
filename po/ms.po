@@ -659,7 +659,7 @@ msgid ""
 "workspaces)."
 msgstr ""
 "Bilangan ruangkerja. Mesti lebih daripada sifar, dan mempunyai bilangan "
-"maksimum tetap (untuk mencegah pemusnahan desktop akibat daripada meminta 34 "
+"maksimum tetap (untuk mencegah pemusnahan desktop akibat daripada mechitwanixa 34 "
 "juta ruangkerja)."
 
 #: ../src/metacity.schemas.in.h:56

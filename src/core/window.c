@@ -2069,12 +2069,12 @@ set_net_wm_state (MetaWindow *window)
       data[i] = window->display->atom__NET_WM_STATE_SKIP_TASKBAR;
       ++i;
     }
-  if (window->maximized_horizontally)
+  if (window->maximized_horizontally || window->tile_type != META_WINDOW_TILE_TYPE_NONE)
     {
       data[i] = window->display->atom__NET_WM_STATE_MAXIMIZED_HORZ;
       ++i;
     }
-  if (window->maximized_vertically)
+  if (window->maximized_vertically || window->tile_type != META_WINDOW_TILE_TYPE_NONE)
     {
       data[i] = window->display->atom__NET_WM_STATE_MAXIMIZED_VERT;
       ++i;
@@ -3401,7 +3401,8 @@ meta_window_hide (MetaWindow *window)
        * focus the default window for the active workspace (this scenario
        * arises when we are switching workspaces).
        */
-      if (my_workspace == window->screen->active_workspace)
+      if (window->type == META_WINDOW_MODAL_DIALOG &&
+          my_workspace == window->screen->active_workspace)
         not_this_one = window;
 
       meta_workspace_focus_default_window (window->screen->active_workspace,
@@ -8820,14 +8821,14 @@ check_moveresize_frequency (MetaWindow *window,
 	  double elapsed =
 	    time_diff (&current_time, &window->sync_request_time);
 
-	  if (elapsed < 1000.0)
+	  if (elapsed < 100.0)
 	    {
 	      /* We want to be sure that the timeout happens at
 	       * a time where elapsed will definitely be
 	       * greater than 1000, so we can disable sync
 	       */
 	      if (remaining)
-		*remaining = 1000.0 - elapsed + 100;
+		*remaining = 100.0 - elapsed + 10;
 
 	      return FALSE;
 	    }

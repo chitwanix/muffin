@@ -1,3 +1,11 @@
-muffin (2.0.3) khukuri; urgency=low
-   * Muffin, based on Mutter 3.2.1(-0ubuntu2)
- -- Arun Pyasi <root@chitwanix.com>  Wed, 30 Oct 2013 18:04:13 +0000
+muffin (2.0.5) khukuri; urgency=low
+
+  * 2.0.5
+
+ -- Arun Kr. Pyasi <root@chitwanix.com>  Sat, 23 Nov 2013 13:42:23 +0000
+
+muffin (2.0.4) khukuri; urgency=low
+
+  * Import from muffin mint
+
+ -- Arun Kr. Pyasi <root@chitwanix.com>  Thu, 07 Nov 2013 10:23:10 +0000

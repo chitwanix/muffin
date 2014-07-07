@@ -330,7 +330,7 @@ msgstr "Muffin"
 
 #: ../src/org.sagarmatha.muffin.gschema.xml.in.h:1
 msgid "Modifier to use for extended window management operations"
-msgstr "Muunnosnäppäin laajennettuja ikkunoidenhallintatoimintoja varten"
+msgstr "Muunnosnäppäin laajennettuja ikkunoidenhallintatoichitwanixoja varten"
 
 #: ../src/org.sagarmatha.muffin.gschema.xml.in.h:2
 msgid "This key will initiate the \"overlay\", which is a combination window overview and application launching system. The default is intended to be the \"Windows key\" on PC hardware. It's expected that this binding either the default or set to the empty string."
@@ -1063,7 +1063,7 @@ msgstr "”%s”-nimistä <draw_ops>:ia ei ole määritelty"
 #: ../src/ui/theme-parser.c:2972
 #, c-format
 msgid "Unknown function \"%s\" for button"
-msgstr "Tuntematon painikkeen toiminto ”%s”"
+msgstr "Tuntematon painikkeen toichitwanixo ”%s”"
 
 #: ../src/ui/theme-parser.c:2982
 #, c-format

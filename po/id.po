@@ -345,7 +345,7 @@ msgstr "Bel peristiwa"
 #: ../src/core/core.c:157
 #, c-format
 msgid "Unknown window information request: %d"
-msgstr "Permintaan informasi jendela tak dikenal: %d"
+msgstr "Perchitwanixaan informasi jendela tak dikenal: %d"
 
 #: ../src/core/delete.c:111
 #, c-format

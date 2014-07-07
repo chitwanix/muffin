@@ -140,7 +140,7 @@ msgid ""
 msgstr ""
 "metacity %s\n"
 "Copyright (C) 2001-2002 Havoc Pennington, Red Hat, Inc., sy ireo hafa\n"
-"Rindranasa maimaimpoana izy ity. Jereo ny loharano ahitana ireo fepetra "
+"Rindranasa maimaimpoana izy ity. Jereo ny loharano ahitana ireo fekhukuri "
 "mifehy ny fandikana.\n"
 "TSY MISY fiantohana izy ity, na dia ny fiantohana ny FAHALAVORARIANY HO "
 "AN'NY VAROTRA na ny FETEZANY ANAOVANA ZAVATRA aza.\n"
@@ -410,7 +410,7 @@ msgstr "Metacity"
 #: ../src/metacity.schemas.in.h:1
 msgid "(Not implemented) Navigation works in terms of applications not windows"
 msgstr ""
-"(Tsy mbola voapetraka) Mifototra amin'ny rindranasa fa tsy fikandrana ny "
+"(Tsy mbola voakhukurika) Mifototra amin'ny rindranasa fa tsy fikandrana ny "
 "fitetezana"
 
 #: ../src/metacity.schemas.in.h:2
@@ -573,7 +573,7 @@ msgstr ""
 "fomba mifototra amina rindranasa ianao, dia hakarina daholo ireo fikandrana "
 "amin'ilay rindranasa. Fanampin'izay, dia tsy alefa mankany amin'ny "
 "fikandran'ny rindranasa hafa ireo kitika fanasongadinana. Tsy mbola tena "
-"voapetraka tsara anefa io fomba mifototra amin'ny rindranasa io."
+"voakhukurika tsara anefa io fomba mifototra amin'ny rindranasa io."
 
 #: ../src/metacity.schemas.in.h:24
 msgid "If true, trade off usability for less resource usage"
